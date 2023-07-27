@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "word-cloud"
+version = "0.1.0"
+description = ""
+authors = ["nyasba"]
+readme = "README.md"
+packages = [{include = "word_cloud"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+wordcloud = "^1.9.2"
+mecab-python3 = "^1.0.6"
+unidic-lite = "^1.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
